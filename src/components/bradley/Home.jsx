@@ -21,7 +21,7 @@ const Home = () => {
 };
 
 const LandingContainer = styled.div`
-  height: 90vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
