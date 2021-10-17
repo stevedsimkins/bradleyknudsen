@@ -9,6 +9,9 @@ import rightVector from "../../assets/bradleyRightVector.svg";
 const Home = () => {
   return (
     <LandingContainer>
+      <TopVector src={topVector} alt="graphic" />
+      <LeftVector src={leftVector} alt="graphic" />
+      <RightVector src={rightVector} alt="graphic" />
       <LandingCopy>
         <Logo>Bradley Knudsen</Logo>
         <h4>Analogue Synthesizer Composer</h4>
@@ -23,6 +26,8 @@ const LandingContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  overflow-x: hidden;
 `;
 
 const LandingCopy = styled.div`
@@ -50,7 +55,24 @@ const Logo = styled.h1`
 `;
 
 const TopVector = styled.img`
+  width: 600px;
+  height: 275px;
+  position: absolute;
+  top: 0;
+`;
 
+const LeftVector = styled.img`
+  width: 400px;
+  position: absolute;
+  left: -150px;
+  bottom: 0;
+`;
+
+const RightVector = styled.img`
+  width: 270px;
+  position: absolute;
+  bottom: 0;
+  right: -50px;
 `
 
 export default Home;
