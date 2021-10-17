@@ -55,24 +55,27 @@ const Logo = styled.h1`
 `;
 
 const TopVector = styled.img`
-  width: 600px;
-  height: 200px;
+  width: 100%;
+  height: 30%;
   position: absolute;
   top: 0;
+  transition: all 0.5s ease-in-out;
 `;
 
 const LeftVector = styled.img`
-  width: 400px;
+  width: 100%;
   position: absolute;
   left: -50%;
   bottom: 0;
+  transition: all 0.5s ease-in-out;
 `;
 
 const RightVector = styled.img`
-  width: 270px;
+  width: 100%;
   position: absolute;
-  bottom: 0;
-  right: -30%;
+  bottom: -15%;
+  right: -50%;
+  transition: all 0.5s ease-in-out;
 `
 
 export default Home;
