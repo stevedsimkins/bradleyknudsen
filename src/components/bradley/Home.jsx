@@ -56,7 +56,7 @@ const Logo = styled.h1`
 
 const TopVector = styled.img`
   width: 600px;
-  height: 275px;
+  height: 200px;
   position: absolute;
   top: 0;
 `;
@@ -64,7 +64,7 @@ const TopVector = styled.img`
 const LeftVector = styled.img`
   width: 400px;
   position: absolute;
-  left: -150px;
+  left: -50%;
   bottom: 0;
 `;
 
@@ -72,7 +72,7 @@ const RightVector = styled.img`
   width: 270px;
   position: absolute;
   bottom: 0;
-  right: -50px;
+  right: -30%;
 `
 
 export default Home;
