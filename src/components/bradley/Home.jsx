@@ -21,7 +21,7 @@ const Home = () => {
 };
 
 const LandingContainer = styled.div`
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -65,7 +65,7 @@ const TopVector = styled.img`
 const LeftVector = styled.img`
   width: 100%;
   position: absolute;
-  left: -50%;
+  left: -60%;
   bottom: 0;
   transition: all 0.5s ease-in-out;
 `;
@@ -74,7 +74,7 @@ const RightVector = styled.img`
   width: 350px;
   position: absolute;
   bottom: -9%;
-  right: -50%;
+  right: -60%;
   transition: all 0.5s ease-in-out;
 `
 
