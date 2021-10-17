@@ -27,7 +27,7 @@ const LandingContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
 `;
 
 const LandingCopy = styled.div`
@@ -56,7 +56,7 @@ const Logo = styled.h1`
 
 const TopVector = styled.img`
   width: 100%;
-  height: 30%;
+  height: 25%;
   position: absolute;
   top: 0;
   transition: all 0.5s ease-in-out;
@@ -71,9 +71,9 @@ const LeftVector = styled.img`
 `;
 
 const RightVector = styled.img`
-  width: 100%;
+  width: 350px;
   position: absolute;
-  bottom: -15%;
+  bottom: -9%;
   right: -50%;
   transition: all 0.5s ease-in-out;
 `
