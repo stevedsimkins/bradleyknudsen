@@ -10,15 +10,15 @@ const Work = () => {
       <h2>Work</h2>
       <WorkList>
         <img src={knob1} alt="graphic" />
-        <h3>Aestival Daze</h3>
+        <a href="#"><h3>Aestival Daze</h3></a>
       </WorkList>
       <WorkList>
         <img src={knob2} alt="graphic" />
-        <h3>Bandcamp</h3>
+        <a href="#"><h3>Bandcamp</h3></a>
       </WorkList>
       <WorkList>
         <img src={knob3} alt="graphic" />
-        <h3>Spotify</h3>
+        <a href="#"><h3>Spotify</h3></a>
       </WorkList>
     </WorkContainer>
   )
@@ -41,6 +41,13 @@ const WorkList = styled.div`
   width: 100%;
   justify-content: flex-start;
   align-items: center;
+  padding: 3rem 0;
+  img {
+    padding: 0rem 1rem; 
+  }
+  a {
+    color: black;
+  }
 `;
 
 export default Work;
