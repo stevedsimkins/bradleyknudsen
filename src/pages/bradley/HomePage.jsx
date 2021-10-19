@@ -3,6 +3,7 @@ import Home from "../../components/bradley/Home";
 import Intro from "../../components/bradley/Intro";
 import Work from "../../components/bradley/Work";
 import Contact from "../../components/bradley/Contact";
+import Footer from "../../components/bradley/Footer";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Intro />
       <Work />
       <Contact />
+      <Footer />
     </>
   )
 };
