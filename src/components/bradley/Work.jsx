@@ -25,7 +25,7 @@ const Work = () => {
 }
 
 const WorkContainer = styled.div`
-  min-height: 100vh;
+  min-height: 80vh;
   width: 90%;
   margin: 0 auto;
   display: flex;

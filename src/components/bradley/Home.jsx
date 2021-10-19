@@ -49,6 +49,7 @@ const LandingCopy = styled.div`
 const Logo = styled.h1`
   font-size: 90px;
   font-weight: 700;
+  line-height: 100%;
   @media(max-width: 500px){
     font-size: 67px;
   }
