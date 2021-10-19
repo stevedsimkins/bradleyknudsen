@@ -2,6 +2,7 @@ import React from "react";
 import Home from "../../components/bradley/Home";
 import Intro from "../../components/bradley/Intro";
 import Work from "../../components/bradley/Work";
+import Contact from "../../components/bradley/Contact";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <Home />
       <Intro />
       <Work />
+      <Contact />
     </>
   )
 };
