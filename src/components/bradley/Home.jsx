@@ -27,7 +27,7 @@ const LandingContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
+
 `;
 
 const LandingCopy = styled.div`
@@ -35,9 +35,6 @@ const LandingCopy = styled.div`
   text-align:center;
   h1, h4 {
   padding: 1rem;
-  }
-  @media(min-width: 700px){
-    width: 100%;
   }
   @media(min-width: 900px){
     h4{
@@ -61,6 +58,9 @@ const TopVector = styled.img`
   position: absolute;
   top: 0;
   transition: all 0.5s ease-in-out;
+  @media(min-width: 700px){
+    height: 30%;
+  }
 `;
 
 const LeftVector = styled.img`
@@ -69,6 +69,10 @@ const LeftVector = styled.img`
   left: -60%;
   bottom: 0;
   transition: all 0.5s ease-in-out;
+  @media(min-width: 700px){
+    bottom: -30%;
+    left: -40%;
+  }
 `;
 
 const RightVector = styled.img`
@@ -77,6 +81,11 @@ const RightVector = styled.img`
   bottom: -9%;
   right: -60%;
   transition: all 0.5s ease-in-out;
+  @media(min-width: 700px){
+    right: 0;
+    width: 50%;
+    bottom: -20%;
+  }
 `
 
 export default Home;
