@@ -26,7 +26,7 @@ const Work = () => {
 
 const WorkContainer = styled.div`
   min-height: 80vh;
-  width: 90%;
+  max-width: 90%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -34,6 +34,9 @@ const WorkContainer = styled.div`
   position: relative;
   flex-direction: column;
   text-align: center;
+  @media(min-width: 500px){
+    width: 410px;
+  }
 `;
 
 const WorkList = styled.div`

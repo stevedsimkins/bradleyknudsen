@@ -28,6 +28,9 @@ const ContactContainer = styled.div`
   h2, h4, div{
     padding: 2rem 0rem;
   }
+  @media(min-width: 700px){
+    width: 400px;
+  }
 `;
 
 const IconContainer = styled.div`

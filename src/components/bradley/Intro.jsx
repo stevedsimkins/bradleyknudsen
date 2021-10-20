@@ -23,16 +23,22 @@ const IntroContainer = styled.div`
   p{
     width: 80%;
   }
+  @media(min-width: 700px){
+    margin-top: 10rem;
+    p{
+      width: 400px;
+    }
+  }
 `;
 
-const IntroText = styled.p`
-
-`;
 
 const SynthVector = styled.img`
   width: 80%;
   height: auto;
   margin-top: 100px;
+  @media(min-width: 700px){
+    width: 400px;
+  }
 `;
 
 export default Intro;
