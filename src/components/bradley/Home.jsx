@@ -27,7 +27,6 @@ const LandingContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
-
 `;
 
 const LandingCopy = styled.div`
@@ -101,7 +100,7 @@ const RightVector = styled.img`
     bottom: -20%;
   }
   @media(min-width: 750px){
-    right: -10%;
+    width: 45%;
     bottom: -30%;
   }
   @media(min-width: 900px){
@@ -109,6 +108,7 @@ const RightVector = styled.img`
   }
   @media(min-width: 1100px){
     width: 40%;
+    right: 0;
   }
 `
 
