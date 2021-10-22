@@ -61,6 +61,9 @@ const TopVector = styled.img`
   @media(min-width: 700px){
     height: 30%;
   }
+  @media(min-width: 750px){
+    top: -10%; 
+  }
 `;
 
 const LeftVector = styled.img`
@@ -72,6 +75,17 @@ const LeftVector = styled.img`
   @media(min-width: 500px){
     bottom: -30%;
     left: -40%;
+  }
+  @media(min-width: 750px){
+    bottom: -40%;
+    left: -50%;
+  }
+  @media(min-width: 900px){
+    width: 90%;
+  }
+  @media(min-width: 1100px){
+    width: 80%;
+    bottom: -50%;
   }
 `;
 
@@ -85,6 +99,16 @@ const RightVector = styled.img`
     right: 0;
     width: 50%;
     bottom: -20%;
+  }
+  @media(min-width: 750px){
+    right: -10%;
+    bottom: -30%;
+  }
+  @media(min-width: 900px){
+    bottom: -40%;
+  }
+  @media(min-width: 1100px){
+    width: 40%;
   }
 `
 

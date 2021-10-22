@@ -23,8 +23,8 @@ const FooterContainer = styled.div`
     bottom: 10%;
     z-index: 3;
   }
-  @media(min-width: 700px){
-    min-height:
+  @media(min-width: 1100px){
+    min-height: 80vh;
   }
 `;
 
@@ -32,8 +32,15 @@ const FooterVector = styled.img`
   position: absolute;
   bottom: -20%;
   width: 100%;
+  object-fit: contain;
   @media(min-width: 700px){
     bottom: -50%;
+  }
+  @media(min-width: 900px){
+    bottom: -70%;
+  }
+  @media(min-width:1100px){
+    bottom: -120vh;
   }
 `;
 
