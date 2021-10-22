@@ -5,7 +5,7 @@ import twitter from "../../assets/bradleyTwitter.svg";
 import instagram from "../../assets/bradleyInstagram.svg";
 
 const Contact = () => {
-  return(
+  return (
     <ContactContainer>
       <h2>Contact </h2>
       <h4>bradleyknudsen@gmail.com</h4>
@@ -30,6 +30,7 @@ const ContactContainer = styled.div`
   }
   @media(min-width: 700px){
     width: 400px;
+    margin: 0 auto;
   }
 `;
 

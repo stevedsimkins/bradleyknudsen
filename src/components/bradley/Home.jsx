@@ -69,7 +69,7 @@ const LeftVector = styled.img`
   left: -60%;
   bottom: 0;
   transition: all 0.5s ease-in-out;
-  @media(min-width: 700px){
+  @media(min-width: 500px){
     bottom: -30%;
     left: -40%;
   }
@@ -81,7 +81,7 @@ const RightVector = styled.img`
   bottom: -9%;
   right: -60%;
   transition: all 0.5s ease-in-out;
-  @media(min-width: 700px){
+  @media(min-width: 500px){
     right: 0;
     width: 50%;
     bottom: -20%;

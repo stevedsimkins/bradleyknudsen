@@ -23,12 +23,18 @@ const FooterContainer = styled.div`
     bottom: 10%;
     z-index: 3;
   }
+  @media(min-width: 700px){
+    min-height:
+  }
 `;
 
 const FooterVector = styled.img`
   position: absolute;
   bottom: -20%;
   width: 100%;
+  @media(min-width: 700px){
+    bottom: -50%;
+  }
 `;
 
 const FooterText = styled.p`
