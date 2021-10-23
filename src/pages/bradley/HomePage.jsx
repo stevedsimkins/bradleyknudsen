@@ -19,7 +19,7 @@ const HomePage = () => {
   return (
     <>
       <ReactJKMusicPlayer
-        defaultPosition={{ bottom: 0, right: 0 }}
+        defaultPosition={{ bottom: 10, right: 10 }}
         theme={"light"}
         showDownload={false}
         audioLists={audioList}
