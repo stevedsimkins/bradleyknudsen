@@ -72,7 +72,6 @@ const TopVector = styled.img`
   @media(min-width: 1200px){
     top: -55%;
   }
- }
 `;
 
 const LeftVector = styled.img`
@@ -80,6 +79,19 @@ const LeftVector = styled.img`
   bottom: -10%;
   position: absolute;
   transition: all 0.5s ease-in-out;
+  @media(min-width: 740px){
+    width: 45%;
+    bottom: -30%;
+  }
+  @media(min-width: 830px){
+    width: 40%;
+  }
+  @media(min-width: 920px){
+    width: 35%;
+  }
+  @media(min-width: 1000px){
+    width: 30%;
+  }
 `;
 
 const RightVector = styled.img`
@@ -87,6 +99,19 @@ const RightVector = styled.img`
   right: 0;
   bottom: -10%;
   transition: all 0.5s ease-in-out;
+  @media(min-width: 740px){
+    width: 45%;
+    bottom: -35%;
+  }
+  @media(min-width: 830px){
+    width: 40%;
+  }
+  @media(min-width: 920px){
+    width: 35%;
+  }
+  @media(min-width: 1000px){
+    width: 30%;
+  }
 `
 
 export default Home;
