@@ -55,6 +55,23 @@ const TopVector = styled.img`
   position: absolute;
   top: 0;
   transition: all 0.5s ease-in-out;
+  width: 100%;
+  height: auto;
+  @media(min-width: 500px){
+    top: -10%;
+  }
+  @media(min-width: 690px){
+    top: -20%;
+  }
+  @media(min-width:870px){
+    top: -30%;
+  }
+  @media(min-width: 1000px){
+    top: -40%;
+  }
+  @media(min-width: 1200px){
+    top: -55%;
+  }
  }
 `;
 
