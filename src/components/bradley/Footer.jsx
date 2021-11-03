@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import bottomVector from "../../assets/bradleyBottomVector.svg";
+import bottomVectorMobile from "../../assets/bradleyBottomVectorMobile.svg";
+
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterVector src={bottomVector} alt="graphic" />
+      <FooterVector src={bottomVectorMobile} alt="graphic" />
       <p>Designed by stevedsimkins</p>
     </FooterContainer>
   )
@@ -30,18 +31,8 @@ const FooterContainer = styled.div`
 
 const FooterVector = styled.img`
   position: absolute;
-  bottom: -20%;
   width: 100%;
-  object-fit: contain;
-  @media(min-width: 700px){
-    bottom: -50%;
-  }
-  @media(min-width: 900px){
-    bottom: -70%;
-  }
-  @media(min-width:1100px){
-    bottom: -120vh;
-  }
+  bottom: 0;
 `;
 
 const FooterText = styled.p`
